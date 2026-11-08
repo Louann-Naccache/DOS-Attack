@@ -1,0 +1,24 @@
+Bash :
+for ((i=0;i<256;i++)) do ping 1.1.1.i done
+
+Windows (done with Windows OS of the school computer 😂)
+for /l %i in (1,1,999999) do ping 1.1.1.i 
+
+So IP private
+
+At first I wanted to scan the current network,
+useful for devices discovery : in real cyber attack case
+it would be a public network.
+
+Then I wanted to force a DOS with ping ... for my
+website :
+with the ping request. The problem was that ironicly
+my computer was more in DOS than the target
+
+This is because ping request requires 
+same memory for both parties, and my
+computer is not powerful as a 
+server fully disposed for the web.
+
+Here is where today all changed, and where DOS can really
+happen
