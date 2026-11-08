@@ -1,0 +1,13 @@
+Non-vulgarized summary :
+Using nmap requests
+IP spoofing for increasing attacker memory capacity
+and additional traffic response to target, for highing
+up internet traffic and saturating target.
+Additionnally redirecting nmap response to target may 
+allow more anonymous corruption, even if :
+the target may know all the nmap response which
+could be dangerous.
+
+I just have to confirm that nmap -S target-IP target-IP
+command doesn't reveal in request form any tips for identifying
+attacker
