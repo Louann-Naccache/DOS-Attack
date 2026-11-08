@@ -1,0 +1,29 @@
+Today I realized that nmap (software) is really useful...
+And not just for discovery
+but also for attacking and forcing DOS !
+By one-way requests : instead of receiving something of
+the target, just sending it requests X2 DOUBLES 
+the efficiency of the cyber attack comparing to 
+the pathetical code of last year
+
+nmap -S [Non-existant-IP] [target_IP]
+take care that the IP doesn't exist
+otherwise this IP will receive all the 
+supposed results
+
+Full explication :
+I am sending a request to target
+And target send me back the result to [Non-Existant-IP]
+
+So full and exhaustive code :
+Bash : for ((i=0;i<9999999;i++)) do nmap -S [non-existant-IP] [target-IP] done
+
+Great ! That's it ? Wait !
+I will double the server effort for you 
+What if the server that the answer to himself
+yes I know that probably he won't be listenning
+But it still a non negligeable traffic
+
+for ((i=0;i<9999999;i++)) do nmap -S [target-IP] [target-IP] done
+
+Bye !
